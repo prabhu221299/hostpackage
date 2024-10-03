@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login_page/widgets/loading.dart';
+import 'package:login_page_package/widgets/loading.dart';
 import 'package:reactive_forms/reactive_forms.dart';
 import 'package:get/get.dart';
 import 'controllers/signin_controller.dart';
