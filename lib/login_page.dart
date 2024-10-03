@@ -42,13 +42,13 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                    children: [
 
 
-                    // Image.asset(
-                    //  height:100,
-                    //  width: 146,
-                    //  'assets/logo.png',
-                    // ),
-                    Text('Clubits', style: TextStyle(
-                            fontSize: 22, fontWeight: FontWeight.bold),)
+                    Image.asset(
+                     height:100,
+                     width: 146,
+                     'assets/logo.png',
+                    ),
+                    // Text('Clubits', style: TextStyle(
+                    //         fontSize: 22, fontWeight: FontWeight.bold),)
 
 
                    ],
