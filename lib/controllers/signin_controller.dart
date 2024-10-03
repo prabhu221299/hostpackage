@@ -87,7 +87,6 @@ class SigninController extends GetxController{
         log("Response received: ${response.toString()}");
         // UserModel newUser = UserModel(userID: data['UserID'], roleID: data['RoleID'], roleName: data['RoleName'], name: data['Username'], patientId: data['Username']);
         // await StorageServices.write('userInfo', newUser);
-
         isLoading.value = false;
         Get.snackbar(
           'Information!',
@@ -96,7 +95,7 @@ class SigninController extends GetxController{
           backgroundColor: Color(0xFFD3F8DF),
           colorText: Colors.black,
         );
-        dynamic result = response['data'];
+        // dynamic result = response['data'];
         // Get.to(const Home());
       } else {
         isLoading.value = false;
