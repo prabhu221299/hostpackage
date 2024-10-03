@@ -40,11 +40,16 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                    crossAxisAlignment: CrossAxisAlignment.center,
                    mainAxisAlignment: MainAxisAlignment.center,
                    children: [
-                    Image.asset(
-                     height:100,
-                     width: 146,
-                     'assets/logo.png',
-                    ),
+
+
+                    // Image.asset(
+                    //  height:100,
+                    //  width: 146,
+                    //  'assets/logo.png',
+                    // ),
+                    Text('Clubits', style: TextStyle(
+                            fontSize: 22, fontWeight: FontWeight.bold),)
+
 
                    ],
                   ),
