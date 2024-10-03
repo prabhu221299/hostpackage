@@ -47,8 +47,8 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                      width: 146,
                      'assets/logo.png',
                     ),
-                    // Text('Clubits', style: TextStyle(
-                    //         fontSize: 22, fontWeight: FontWeight.bold),)
+                    Text('Clubits', style: TextStyle(
+                            fontSize: 22, fontWeight: FontWeight.bold),)
 
 
                    ],
